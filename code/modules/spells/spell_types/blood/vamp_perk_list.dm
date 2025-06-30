@@ -22,13 +22,13 @@
 	badtraitdesc = "You will need to drink more blood, especially when your veil is down" //is there a bad trait we want to associate? the player description
 /obj/effect/proc_holder/spell/self/vampire_lowmetabolism
 	name = "Low Metabolism"
-	cost = 3
+	cost = 1
 	spell_tier = 2 // What vampire level are we?
 	desc = "you use Vitae at a slower rate"
 	goodtrait = TRAIT_LOW_METABOLISM //is there a good trait we want to associate? the code name
 	badtrait = TRAIT_HYDROPHOBIA //is there a bad trait we want to associate? the code name
 	badtraitname = "Water weakness" //is there a bad trait we want to associate? the player name
-	badtraitdesc = "You will burn in clean water or salt water." //is there a bad trait we want to associate? the player description
+	badtraitdesc = "You will be cursed in clean water or salt water." //is there a bad trait we want to associate? the player description
 /obj/effect/proc_holder/spell/self/vampire_nopain
 	name = "No Pain"
 	cost = 3
@@ -46,7 +46,7 @@
 	goodtrait = TRAIT_BLOOD_REGEN //is there a good trait we want to associate? the code name
 	badtrait = TRAIT_WEAK_VEIL //is there a bad trait we want to associate? the code name
 	badtraitname = "Weak Veil & Healing Abilities Limit" //is there a bad trait we want to associate? the player name
-	badtraitdesc = "Your veil is weak and Iyou will feel more weak with it up amd You can only have one ability that gives a heal. Affects regeneration, passive regeneration, batform, and mistform" //is there a bad trait we want to associate? the player description" //is there a bad trait we want to associate? the player description
+	badtraitdesc = "Your veil is weak and you will weaker with it up You also can only have one ability that gives a heal. Affects regeneration, passive regeneration, batform, and mistform" //is there a bad trait we want to associate? the player description" //is there a bad trait we want to associate? the player description
 /obj/effect/proc_holder/spell/self/vampire_resistholy
 	name = "Resist Holy"
 	cost = 3
@@ -55,7 +55,7 @@
 	goodtrait = TRAIT_HOLY_RESIST //is there a good trait we want to associate? the code name
 	badtrait = TRAIT_SUN_WEAKNESS //is there a bad trait we want to associate? the code name
 	badtraitname = "Sun Weakness" //is there a bad trait we want to associate? the player name
-	badtraitdesc = "The sun burns you more than others, even with your veil up you may feel weak" //is there a bad trait we want to associate? the player description
+	badtraitdesc = "The sun burns you as well as weakens you without your veil" //is there a bad trait we want to associate? the player description
 /obj/effect/proc_holder/spell/self/vampire_resistsilver
 	name = "Resist Silver"
 	cost = 3
@@ -64,7 +64,7 @@
 	goodtrait = TRAIT_SILVER_RESIST //is there a good trait we want to associate? the code name
 	badtrait = TRAIT_HOLY_WEAKNESS //is there a bad trait we want to associate? the code name
 	badtraitname = "Holy Weakness" //is there a bad trait we want to associate? the player name
-	badtraitdesc = "Holy spells impact you more and you feel weak in churches" //is there a bad trait we want to associate? the player description
+	badtraitdesc = "You will feel weaker in church and certain holy spells may affect you more." //is there a bad trait we want to associate? the player description
 /obj/effect/proc_holder/spell/self/vampire_resistsun
 	name = "Resist Sun"
 	cost = 3

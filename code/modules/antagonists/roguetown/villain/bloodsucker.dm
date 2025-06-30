@@ -93,7 +93,7 @@
 
 	if (new_bloodsucker)
 		//we give fewer points to new spawn or those with a virtue
-		owner.adjust_vamppoints(-4)
+		owner.adjust_vamppoints(-1)
 		forge_bloodsucker_objectives()
 		finalize_bloodsucker_lesser()
 		if (H.bs_spawn == 1)
@@ -341,12 +341,13 @@
 
 
 /datum/antagonist/bloodsucker/roundend_report()
+	return //just escaping out of amy antag reports for right now
+	/*
 	var/traitorwin = TRUE
-
 	printplayer(owner)
-
+	
 	var/count = 0
-	if(new_bloodsucker) // don't need to spam up the chat with all spawn
+	if(!new_bloodsucker) // don't need to spam up the chat with all spawn
 		if(objectives.len)//If the traitor had no objectives, don't need to process this.
 			for(var/datum/objective/objective in objectives)
 				objective.update_explanation_text()
@@ -379,6 +380,7 @@
 		to_chat(world, span_redtext("The [special_role_text] has FAILED!"))
 		if(owner?.current)
 			owner.current.playsound_local(get_turf(owner.current), 'sound/misc/fail.ogg', 100, FALSE, pressure_affected = FALSE)
+	*/
 
 // LANDMARKS
 

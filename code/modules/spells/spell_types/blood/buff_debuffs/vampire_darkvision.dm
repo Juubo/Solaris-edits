@@ -2,7 +2,7 @@
 /obj/effect/proc_holder/spell/invoked/vampire_darkvision
 	name = "Dark Vision"
 	desc = "Gives you night vision for 15 minutes"
-	cost = 2 //how many points it takes
+	cost = 1 //how many points it takes
 	xp_gain = TRUE
 	releasedrain = 1
 	chargedrain = 1

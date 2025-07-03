@@ -3807,6 +3807,16 @@
 "bpV" = (
 /turf/open/floor/rogue/dirt/road,
 /area/provincial/outdoors/dungeon/giuseppes_toybox)
+"bqe" = (
+/obj/structure/roguemachine/teleport_beacon/lava{
+	custom_name = "Lost Smithery";
+	fringe = 1;
+	arrival_price = 15;
+	departure_price = 30;
+	quest_difficulty = "Hard"
+	},
+/turf/open/floor/rogue/dirt,
+/area/provincial/underground/underkings_maw)
 "bql" = (
 /obj/structure/closet/crate/chest/neu,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/armor,
@@ -5872,6 +5882,11 @@
 /obj/machinery/light/rogue/wallfire/candle/directional/north,
 /turf/open/floor/rogue/ruinedwood/herringbone,
 /area/provincial/indoors/town/farm)
+"bZG" = (
+/obj/structure/bed/rogue/bedroll,
+/obj/effect/landmark/start/bloodsucker,
+/turf/open/floor/rogue/dirt/road,
+/area/provincial/outdoors/beach)
 "bZN" = (
 /turf/open/transparent/openspace,
 /area/provincial/outdoors/dungeon/giuseppes_toybox)
@@ -7438,6 +7453,11 @@
 /obj/structure/roguewindow,
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/provincial/indoors/town/tavern)
+"cCj" = (
+/obj/structure/bed/rogue/inn/hay,
+/obj/effect/landmark/start/bloodsucker,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors)
 "cCl" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/rogue/woodturned,
@@ -7579,6 +7599,10 @@
 /obj/machinery/light/rogue/wallfire/candle/directional/north,
 /turf/open/floor/carpet/red,
 /area/provincial/indoors/town)
+"cFb" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/rogue/cobblerock,
+/area/provincial/outdoors/dungeon/riverbrook)
 "cFd" = (
 /obj/structure/stairs{
 	dir = 8
@@ -10065,10 +10089,6 @@
 	icon_state = "vertw"
 	},
 /area/provincial/outdoors/town)
-"dwo" = (
-/obj/machinery/light/rogue/torchholder/directional/west,
-/turf/open/floor/rogue/dirt,
-/area/provincial/indoors/town/sewer)
 "dwv" = (
 /obj/structure/roguewindow/openclose/reinforced,
 /turf/open/floor/rogue/churchmarble,
@@ -11039,11 +11059,6 @@
 	},
 /turf/open/floor/rogue/blocks,
 /area/provincial/underground/dungeon/abandoned_manor)
-"dNu" = (
-/obj/structure/bed/rogue/inn/hay,
-/obj/effect/landmark/start/bloodsucker,
-/turf/open/floor/rogue/ruinedwood/spiral,
-/area/provincial/indoors)
 "dNE" = (
 /obj/structure/fluff/statue/spider,
 /turf/open/floor/rogue/church,
@@ -11070,6 +11085,10 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon/money,
 /turf/open/floor/rogue/dirt,
 /area/provincial/underground/dungeon/goblinfort)
+"dNS" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/rogue/cobble,
+/area/provincial/indoors/town/sewer)
 "dNU" = (
 /obj/machinery/light/rogue/wallfire/directional/north,
 /turf/open/floor/rogue/tile,
@@ -11466,6 +11485,16 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/rogue/carpet/lord/left,
 /area/provincial/underground/dungeon/vulnafir)
+"dVk" = (
+/obj/structure/roguemachine/teleport_beacon/wilderness{
+	custom_name = "The Winding Halls";
+	arrival_price = 15;
+	departure_price = 30;
+	fringe = 1;
+	quest_difficulty = "Hard"
+	},
+/turf/open/floor/rogue/churchbrick,
+/area/provincial/underground/dungeon/winding_halls)
 "dVq" = (
 /obj/item/ingot/blacksteel,
 /turf/open/floor/rogue/blocks,
@@ -13523,6 +13552,10 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/provincial/outdoors/mountains/underkings_maw/deeper_within)
+"eFE" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/rogue/dirt/road,
+/area/provincial/outdoors/beach/forest)
 "eFF" = (
 /obj/effect/decal/cobbleedge{
 	dir = 9
@@ -14174,6 +14207,12 @@
 	},
 /turf/open/floor/rogue/grassred,
 /area/provincial/outdoors/mountains)
+"ePn" = (
+/obj/structure/flora/roguegrass,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/effect/landmark/start/bloodsucker,
+/turf/open/floor/rogue/grass,
+/area/provincial/indoors/town)
 "ePp" = (
 /turf/closed/wall/mineral/rogue/decostone/cand,
 /area/provincial/underground/dungeon/vulnafir)
@@ -15453,6 +15492,16 @@
 	},
 /turf/closed/wall/mineral/rogue/stone,
 /area/provincial/indoors/town/blacksmith)
+"flw" = (
+/obj/structure/roguemachine/teleport_beacon/wilderness{
+	custom_name = "Eternal Flame";
+	fringe = 1;
+	arrival_price = 5;
+	departure_price = 10;
+	quest_difficulty = "Easy"
+	},
+/turf/open/floor/rogue/cobblerock,
+/area/provincial/outdoors/forest)
 "flB" = (
 /turf/closed/mineral/random/rogue,
 /area/provincial/underground/dungeon/forsaken_bastille)
@@ -16741,6 +16790,16 @@
 /obj/item/clothing/suit/roguetown/armor/leather/heavy,
 /turf/open/floor/rogue/cobble,
 /area/provincial/indoors/town/province_keep/garrison/armory/secure)
+"fFY" = (
+/obj/structure/roguemachine/teleport_beacon/underdark{
+	custom_name = "The Underdark";
+	arrival_price = 15;
+	departure_price = 30;
+	fringe = 1;
+	quest_difficulty = "Hard"
+	},
+/turf/open/floor/rogue/blocks,
+/area/provincial/underground/underdark)
 "fGb" = (
 /turf/open/floor/rogue/cobble,
 /area/provincial/outdoors/mountains/underkings_maw)
@@ -16855,6 +16914,10 @@
 /obj/structure/flora/roguegrass/bush/wall,
 /turf/open/floor/rogue/grass,
 /area/provincial/outdoors/town)
+"fHW" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/rogue/dirt/road,
+/area/provincial/outdoors/dungeon/riverbrook)
 "fIe" = (
 /obj/machinery/light/rogue/hearth,
 /turf/open/floor/rogue/tile{
@@ -21111,11 +21174,6 @@
 	icon_state = "weird1"
 	},
 /area/provincial/underground/dungeon/winding_halls)
-"hdk" = (
-/obj/structure/bed/rogue/bedroll,
-/obj/effect/landmark/start/bloodsucker,
-/turf/open/floor/rogue/dirt/road,
-/area/provincial/outdoors/beach)
 "hdl" = (
 /mob/living/simple_animal/hostile/retaliate/rogue/lamia,
 /turf/open/floor/rogue/naturalstone,
@@ -22460,6 +22518,10 @@
 /obj/structure/plasticflaps/opaque,
 /turf/open/floor/rogue/blocks,
 /area/provincial/underground/dungeon/goblinfort)
+"hAw" = (
+/obj/effect/landmark/quest_spawner/medium,
+/turf/open/floor/rogue/twig,
+/area/provincial/outdoors/bog)
 "hAA" = (
 /obj/structure/handcart{
 	dir = 8
@@ -23641,15 +23703,6 @@
 "hRF" = (
 /turf/closed/mineral/random/rogue/med,
 /area/provincial/outdoors/forest)
-"hRG" = (
-/obj/structure/roguemachine/teleport_beacon/bandit{
-	custom_name = "Giuseppe's Toybox";
-	arrival_price = 15;
-	departure_price = 30;
-	fringe = 1
-	},
-/turf/open/floor/rogue/cobble/mossy,
-/area/provincial/indoors/dungeon/giuseppes_toybox)
 "hRM" = (
 /mob/living/simple_animal/hostile/rogue/skeleton/bow,
 /turf/open/floor/rogue/dirt/road,
@@ -23781,15 +23834,6 @@
 /obj/structure/chair/bench/church/smallbench,
 /turf/open/floor/rogue/sand,
 /area/provincial/outdoors/dungeon/riverbrook)
-"hTn" = (
-/obj/structure/roguemachine/teleport_beacon/wilderness{
-	arrival_price = 5;
-	departure_price = 10;
-	fringe = 1;
-	custom_name = "Emerald Glade Bridge"
-	},
-/turf/open/floor/rogue/dirt,
-/area/provincial/outdoors/forest)
 "hTt" = (
 /obj/structure/stairs{
 	dir = 4
@@ -24690,15 +24734,6 @@
 /obj/item/clothing/shoes/roguetown/boots,
 /turf/open/floor/rogue/cobble,
 /area/provincial/indoors/town/province_keep/garrison/armory/secure)
-"ilf" = (
-/obj/structure/roguemachine/teleport_beacon/lava{
-	custom_name = "Abandoned Manor";
-	fringe = 1;
-	arrival_price = 15;
-	departure_price = 30
-	},
-/turf/open/floor/rogue/tile,
-/area/provincial/underground/dungeon/abandoned_manor)
 "ily" = (
 /obj/structure/fluff/railing/border{
 	dir = 1
@@ -25077,6 +25112,16 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/provincial/indoors/town/province_keep/garrison/armory)
+"ird" = (
+/obj/structure/roguemachine/teleport_beacon/lava{
+	custom_name = "Abandoned Manor";
+	fringe = 1;
+	arrival_price = 15;
+	departure_price = 30;
+	quest_difficulty = "Hard"
+	},
+/turf/open/floor/rogue/tile,
+/area/provincial/underground/dungeon/abandoned_manor)
 "irk" = (
 /obj/effect/decal/cobbleedge{
 	dir = 9
@@ -25460,12 +25505,6 @@
 	},
 /turf/open/floor/rogue/tile/brick,
 /area/provincial/outdoors/town/roofs)
-"izj" = (
-/obj/item/roguebin/water,
-/turf/open/floor/rogue/ruinedwood{
-	icon_state = "weird1"
-	},
-/area/provincial/indoors/town/adventurers_guild)
 "izk" = (
 /obj/effect/decal/cobble/mossy{
 	dir = 6
@@ -26589,15 +26628,6 @@
 /obj/item/storage/roguebag,
 /turf/open/floor/rogue/blocks,
 /area/provincial/indoors/town/province_keep/garrison/armory)
-"iRs" = (
-/obj/structure/roguemachine/teleport_beacon/wilderness{
-	arrival_price = 5;
-	departure_price = 10;
-	fringe = 1;
-	custom_name = "Abandoned Inn"
-	},
-/turf/open/floor/rogue/grass,
-/area/provincial/outdoors/forest)
 "iRt" = (
 /obj/structure/bars/passage/steel{
 	redstone_id = "dragonlair"
@@ -29781,13 +29811,6 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/rogue/churchmarble,
 /area/provincial/underground/dungeon/licharena)
-"jVL" = (
-/obj/structure/roguemachine/teleport_beacon/main{
-	custom_name = "Solaris Ridge";
-	arrival_price = 15
-	},
-/turf/open/floor/rogue/cobble,
-/area/provincial/outdoors/town)
 "jVN" = (
 /obj/structure/bars/pipe{
 	dir = 9
@@ -30030,15 +30053,6 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/provincial/indoors/town/province_keep/meeting_room)
-"jZH" = (
-/obj/structure/roguemachine/teleport_beacon/wilderness{
-	custom_name = "Goblins' Village";
-	arrival_price = 5;
-	departure_price = 10;
-	fringe = 1
-	},
-/turf/open/floor/rogue/dirt,
-/area/provincial/outdoors/forest)
 "jZJ" = (
 /obj/machinery/light/rogue/wallfire/candle/directional/west,
 /turf/open/floor/rogue/church,
@@ -30196,6 +30210,14 @@
 "kcb" = (
 /turf/closed/wall/mineral/rogue/decostone,
 /area/provincial/indoors/town/ramparts)
+"kcc" = (
+/obj/structure/roguemachine/teleport_beacon/main{
+	custom_name = "Solaris Ridge";
+	arrival_price = 15;
+	quest_difficulty = "Easy"
+	},
+/turf/open/floor/rogue/cobble,
+/area/provincial/outdoors/town)
 "kcn" = (
 /turf/open/floor/rogue/blocks{
 	dir = 4
@@ -31746,6 +31768,16 @@
 	icon_state = "vertw"
 	},
 /area/provincial/outdoors/town)
+"kCf" = (
+/obj/structure/roguemachine/teleport_beacon/wilderness{
+	arrival_price = 5;
+	departure_price = 10;
+	fringe = 1;
+	custom_name = "Abandoned Inn";
+	quest_difficulty = "Easy"
+	},
+/turf/open/floor/rogue/grass,
+/area/provincial/outdoors/forest)
 "kCh" = (
 /turf/open/floor/carpet/red,
 /area/provincial/indoors/town/tavern/room/four)
@@ -32368,6 +32400,15 @@
 	icon_state = "roofg"
 	},
 /area/provincial/indoors/town/tavern/room/four)
+"kLB" = (
+/obj/structure/roguemachine/teleport_beacon/wilderness{
+	arrival_price = 5;
+	departure_price = 10;
+	fringe = 1;
+	quest_difficulty = "Easy"
+	},
+/turf/open/floor/rogue/dirt/road,
+/area/provincial/outdoors/bog)
 "kLV" = (
 /obj/machinery/light/rogue/wallfire/candle/directional/south,
 /turf/open/floor/rogue/ruinedwood{
@@ -32632,6 +32673,16 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/rogue/grass,
 /area/provincial/indoors/town/province_keep)
+"kRG" = (
+/obj/structure/roguemachine/teleport_beacon/bandit{
+	custom_name = "Searaiders' Hold";
+	arrival_price = 15;
+	departure_price = 30;
+	fringe = 1;
+	quest_difficulty = "Hard"
+	},
+/turf/open/floor/rogue/ruinedwood,
+/area/provincial/indoors)
 "kRH" = (
 /obj/structure/roguewindow,
 /turf/open/floor/rogue/blocks,
@@ -32708,6 +32759,16 @@
 	},
 /turf/open/floor/rogue/churchmarble,
 /area/provincial/indoors/town/church)
+"kSW" = (
+/obj/structure/roguemachine/teleport_beacon/lava{
+	custom_name = "Dragons' Den";
+	arrival_price = 15;
+	departure_price = 30;
+	fringe = 1;
+	quest_difficulty = "Hard"
+	},
+/turf/open/floor/rogue/naturalstone,
+/area/provincial/underground/dungeon/dragonden)
 "kSY" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/rogue/cobblerock,
@@ -33323,15 +33384,6 @@
 /obj/effect/mapping_helpers/lock_door,
 /turf/open/floor/rogue/greenstone,
 /area/provincial/underground/dungeon/forsaken_bastille)
-"lfj" = (
-/obj/structure/roguemachine/teleport_beacon/underdark{
-	custom_name = "Lich's Hall";
-	arrival_price = 15;
-	departure_price = 30;
-	fringe = 1
-	},
-/turf/open/floor/rogue/carpet/lord/center/no_teleport,
-/area/provincial/underground/dungeon/licharena)
 "lfl" = (
 /obj/item/natural/stone{
 	pixel_x = -5;
@@ -33696,6 +33748,16 @@
 /obj/item/candle/yellow/lit,
 /turf/open/floor/rogue/woodturned,
 /area/provincial/indoors/dungeon/giuseppes_toybox)
+"lmq" = (
+/obj/structure/roguemachine/teleport_beacon/wilderness{
+	custom_name = "Riverbrook";
+	arrival_price = 5;
+	departure_price = 10;
+	fringe = 1;
+	quest_difficulty = "Medium"
+	},
+/turf/open/floor/rogue/cobble/mossy,
+/area/provincial/outdoors/dungeon/riverbrook)
 "lms" = (
 /obj/structure/fluff/walldeco/chains,
 /obj/effect/spawner/lootdrop/roguetown/sewers,
@@ -34021,6 +34083,10 @@
 /obj/structure/plasticflaps,
 /turf/open/floor/rogue/cobble/mossy,
 /area/provincial/underground)
+"lrS" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/rogue/naturalstone,
+/area/provincial/indoors/town/sewer)
 "lrV" = (
 /obj/effect/decal/cobble/mossy{
 	dir = 4
@@ -35474,15 +35540,6 @@
 /obj/structure/flora/roguegrass,
 /turf/open/floor/rogue/grass,
 /area/provincial/outdoors/town)
-"lTA" = (
-/obj/structure/roguemachine/teleport_beacon/wilderness{
-	custom_name = "Eternal Flame";
-	fringe = 1;
-	arrival_price = 5;
-	departure_price = 10
-	},
-/turf/open/floor/rogue/cobblerock,
-/area/provincial/outdoors/forest)
 "lTL" = (
 /turf/closed/wall/mineral/rogue/stone/moss,
 /area/provincial/indoors/town/province_keep/quarters/jester)
@@ -36191,15 +36248,6 @@
 	},
 /turf/open/floor/rogue/wood,
 /area/provincial/underground/dungeon/old_university)
-"mgP" = (
-/obj/structure/roguemachine/teleport_beacon/lava{
-	custom_name = "Goblin Fortress";
-	fringe = 1;
-	departure_price = 30;
-	arrival_price = 15
-	},
-/turf/open/floor/rogue/concrete,
-/area/provincial/underground/dungeon/goblinfort)
 "mgQ" = (
 /obj/structure/table/wood{
 	dir = 1;
@@ -37701,6 +37749,10 @@
 	},
 /turf/open/floor/rogue/dirt,
 /area/provincial/underground/dungeon/hordes_hoard)
+"mEm" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/rogue/grass,
+/area/provincial/outdoors/beach/forest)
 "mEo" = (
 /obj/item/grown/log/tree,
 /turf/open/floor/rogue/ruinedwood,
@@ -37877,6 +37929,11 @@
 /obj/machinery/loom,
 /turf/open/floor/rogue/ruinedwood/herringbone,
 /area/provincial/indoors/town/tailor)
+"mHZ" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/rogue/wood,
+/area/provincial/indoors/town/sewer)
 "mIj" = (
 /obj/structure/closet/crate/chest/gold,
 /turf/open/floor/rogue/blocks,
@@ -38093,15 +38150,6 @@
 /mob/living/carbon/human/species/skeleton/npc/ambush,
 /turf/open/floor/rogue/cobble,
 /area/provincial/underground/dungeon/decrepit_tower)
-"mLM" = (
-/obj/structure/roguemachine/teleport_beacon/wilderness{
-	custom_name = "Old Ruins";
-	arrival_price = 15;
-	departure_price = 30;
-	fringe = 1
-	},
-/turf/open/floor/rogue/herringbone,
-/area/provincial/underground/dungeon/old_ruin)
 "mLN" = (
 /obj/machinery/light/rogue/oven/west,
 /turf/open/floor/rogue/cobble,
@@ -38573,6 +38621,16 @@
 /obj/effect/decal/cleanable/blood/gibs/down,
 /turf/open/floor/rogue/blocks,
 /area/provincial/underground/dungeon/winding_halls)
+"mTP" = (
+/obj/structure/roguemachine/teleport_beacon/bandit{
+	custom_name = "Giuseppe's Toybox";
+	arrival_price = 15;
+	departure_price = 30;
+	fringe = 1;
+	quest_difficulty = "Hard"
+	},
+/turf/open/floor/rogue/cobble/mossy,
+/area/provincial/indoors/dungeon/giuseppes_toybox)
 "mTQ" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/closet/crate/chest/wicker,
@@ -38609,6 +38667,10 @@
 	},
 /turf/open/floor/rogue/blocks/stonered,
 /area/provincial/underground/dungeon/gargoyles_rest)
+"mUG" = (
+/obj/structure/roguemachine/questgiver,
+/turf/open/floor/rogue/tile,
+/area/provincial/indoors/town/adventurers_guild)
 "mUH" = (
 /obj/structure/flora/roguegrass,
 /obj/effect/decal/church_line/directional/south,
@@ -38938,15 +39000,6 @@
 "mZU" = (
 /turf/closed/mineral/rogue/bedrock,
 /area/provincial/underground/underkings_maw)
-"mZV" = (
-/obj/machinery/light/rogue/wallfire/candle/directional/north,
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/turf/open/floor/rogue/ruinedwood{
-	icon_state = "weird1"
-	},
-/area/provincial/indoors/town/adventurers_guild)
 "mZW" = (
 /obj/structure/table/wood{
 	dir = 1;
@@ -39131,6 +39184,10 @@
 /obj/effect/spawner/lootdrop/roguetown/gems,
 /turf/open/floor/rogue/dirt,
 /area/provincial/underground/dungeon/goblinfort)
+"ndE" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/rogue/grass,
+/area/provincial/outdoors/forest)
 "ndF" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -40116,6 +40173,16 @@
 	icon_state = "weird1"
 	},
 /area/provincial/indoors/town/province_keep/deacon/quarters)
+"ntn" = (
+/obj/structure/roguemachine/teleport_beacon/wilderness{
+	arrival_price = 5;
+	departure_price = 10;
+	fringe = 1;
+	custom_name = "Emerald Glade Bridge";
+	quest_difficulty = "Easy"
+	},
+/turf/open/floor/rogue/dirt,
+/area/provincial/outdoors/forest)
 "ntq" = (
 /obj/effect/decal/mossy{
 	dir = 1
@@ -40671,6 +40738,16 @@
 	},
 /turf/open/water/pond,
 /area/provincial/outdoors/forest)
+"nCj" = (
+/obj/structure/roguemachine/teleport_beacon/underdark{
+	custom_name = "Goblin Basement";
+	arrival_price = 15;
+	departure_price = 30;
+	fringe = 1;
+	quest_difficulty = "Medium"
+	},
+/turf/open/floor/rogue/blocks,
+/area/provincial/underground/dungeon/hordes_hoard)
 "nCr" = (
 /obj/structure/flora/roguegrass,
 /turf/open/floor/rogue/grassred,
@@ -40823,6 +40900,10 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon/money,
 /turf/open/floor/rogue/tile/masonic,
 /area/provincial/indoors/dungeon/giuseppes_toybox)
+"nFd" = (
+/obj/effect/landmark/quest_spawner/medium,
+/turf/open/floor/rogue/cobblerock,
+/area/provincial/outdoors/forest)
 "nFq" = (
 /obj/effect/decal/church_line/directional/south,
 /turf/open/floor/rogue/hexstone,
@@ -41527,6 +41608,16 @@
 /obj/item/rogueore/silver,
 /turf/open/floor/rogue/dirt/road,
 /area/provincial/underground/underdark/sunkencity)
+"nRW" = (
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/item/roguebin/water,
+/turf/open/floor/rogue/ruinedwood{
+	icon_state = "weird1"
+	},
+/area/provincial/indoors/town/adventurers_guild)
 "nRZ" = (
 /obj/structure/fluff/wallclock/directional/north{
 	dir = 3
@@ -44438,6 +44529,16 @@
 "oPH" = (
 /turf/open/floor/rogue/churchmarble,
 /area/provincial/indoors/town/province_keep)
+"oPJ" = (
+/obj/structure/roguemachine/teleport_beacon/lava{
+	custom_name = "Goblin Fortress";
+	fringe = 1;
+	departure_price = 30;
+	arrival_price = 15;
+	quest_difficulty = "Hard"
+	},
+/turf/open/floor/rogue/concrete,
+/area/provincial/underground/dungeon/goblinfort)
 "oPM" = (
 /obj/item/storage/belt/rogue/pouch/coins/rich,
 /turf/open/floor/rogue/grassyel,
@@ -45335,6 +45436,10 @@
 /obj/item/weaponcrafting/barrel,
 /turf/open/floor/rogue/blocks/stonered/tiny,
 /area/provincial/underground/dungeon/old_university)
+"pge" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/rogue/dirt,
+/area/provincial/indoors/town/sewer)
 "pgh" = (
 /obj/structure/bars/pipe{
 	dir = 8
@@ -46013,6 +46118,12 @@
 	},
 /turf/open/floor/rogue/twig,
 /area/provincial/outdoors/bog)
+"psD" = (
+/obj/structure/roguemachine/questgiver/guild,
+/turf/open/floor/rogue/ruinedwood{
+	icon_state = "weird1"
+	},
+/area/provincial/indoors/town/adventurers_guild)
 "psE" = (
 /obj/machinery/light/rogue/wallfire/candle/directional/west,
 /turf/open/floor/rogue/ruinedwood/spiral,
@@ -46338,12 +46449,6 @@
 	},
 /turf/open/floor/rogue/ruinedwood,
 /area/provincial/outdoors/town)
-"pyw" = (
-/obj/structure/flora/roguegrass,
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/effect/landmark/start/bloodsucker,
-/turf/open/floor/rogue/grass,
-/area/provincial/indoors/town)
 "pyx" = (
 /obj/effect/decal/cobbleedge{
 	dir = 8
@@ -46445,15 +46550,6 @@
 /obj/structure/closet/crate/chest/lootbox,
 /turf/open/floor/rogue/dirt/road,
 /area/provincial/outdoors/mountains/underkings_maw/deeper_within)
-"pAa" = (
-/obj/structure/roguemachine/teleport_beacon/lava{
-	custom_name = "Lost Smithery";
-	fringe = 1;
-	arrival_price = 15;
-	departure_price = 30
-	},
-/turf/open/floor/rogue/dirt,
-/area/provincial/underground/underkings_maw)
 "pAd" = (
 /turf/open/water/swamp/deep,
 /area/provincial/underground/dungeon/vulnafir)
@@ -47147,6 +47243,10 @@
 	},
 /turf/open/floor/rogue/woodturned,
 /area/provincial/indoors/town/church/quarters/priest)
+"pKF" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/rogue/concrete,
+/area/provincial/indoors/town/sewer)
 "pKL" = (
 /obj/structure/stairs{
 	dir = 4
@@ -49510,6 +49610,16 @@
 /obj/machinery/light/rogue/torchholder/directional/west,
 /turf/open/floor/rogue/cobble,
 /area/provincial/indoors/town/tavern/arena)
+"qxT" = (
+/obj/structure/roguemachine/teleport_beacon/underdark{
+	custom_name = "Skeletal Crypt";
+	arrival_price = 15;
+	departure_price = 30;
+	fringe = 1;
+	quest_difficulty = "Medium"
+	},
+/turf/open/floor/rogue/blocks/paving,
+/area/provincial/indoors/dungeon/lost_homestead)
 "qxY" = (
 /turf/closed/wall/mineral/rogue/stonebrick,
 /area/provincial/indoors/town/sewer)
@@ -49586,6 +49696,10 @@
 "qzx" = (
 /turf/open/floor/carpet/red,
 /area/provincial/indoors/town/province_keep/deacon)
+"qzE" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/carpet/red,
+/area/provincial/indoors/town/sewer)
 "qzG" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10;
@@ -49802,15 +49916,6 @@
 	dir = 1
 	},
 /area/provincial/underground/dungeon/vulnafir)
-"qCQ" = (
-/obj/structure/roguemachine/teleport_beacon/underdark{
-	custom_name = "The Underdark";
-	arrival_price = 15;
-	departure_price = 30;
-	fringe = 1
-	},
-/turf/open/floor/rogue/blocks,
-/area/provincial/underground/underdark)
 "qCS" = (
 /obj/structure/fluff/statue/gargoyle/moss/candles,
 /turf/open/floor/rogue/blocks,
@@ -51606,6 +51711,10 @@
 "rkt" = (
 /turf/open/floor/rogue/dirt,
 /area/provincial/outdoors/bog)
+"rkv" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/rogue/blocks/green,
+/area/provincial/indoors/town/sewer)
 "rkw" = (
 /turf/open/floor/rogue/blocks/newstone,
 /area/provincial/underground/underdark/sunkencity)
@@ -52114,15 +52223,6 @@
 /obj/machinery/light/rogue/firebowl/stump,
 /turf/open/floor/rogue/cobble,
 /area/provincial/indoors/town/sewer)
-"rtM" = (
-/obj/structure/roguemachine/teleport_beacon/wilderness{
-	custom_name = "Vulnafir";
-	arrival_price = 15;
-	departure_price = 30;
-	fringe = 1
-	},
-/turf/open/floor/rogue/cobble,
-/area/provincial/underground/dungeon/vulnafir)
 "rtQ" = (
 /turf/open/floor/rogue/tile/masonic{
 	dir = 8
@@ -52609,15 +52709,6 @@
 	icon_state = "weird1"
 	},
 /area/provincial/indoors/town/house/veteran)
-"rDi" = (
-/obj/structure/roguemachine/teleport_beacon/underdark{
-	custom_name = "Skeletal Crypt";
-	arrival_price = 15;
-	departure_price = 30;
-	fringe = 1
-	},
-/turf/open/floor/rogue/blocks/paving,
-/area/provincial/indoors/dungeon/lost_homestead)
 "rDt" = (
 /obj/structure/fluff/walldeco/innsign,
 /turf/closed/wall/mineral/rogue/decostone/mossy/cand,
@@ -52670,6 +52761,10 @@
 /obj/item/reagent_containers/glass/cup/silver,
 /turf/open/floor/carpet/royalblack,
 /area/provincial/underground/underdark/sunkencity)
+"rEC" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/rogue/dirt,
+/area/provincial/outdoors/beach/forest)
 "rEO" = (
 /obj/structure/bed/rogue/inn/wool,
 /obj/effect/landmark/start/clerk{
@@ -52819,15 +52914,6 @@
 	icon_state = "horzw"
 	},
 /area/provincial/outdoors/town)
-"rHK" = (
-/obj/structure/roguemachine/teleport_beacon/underdark{
-	custom_name = "Goblin Basement";
-	arrival_price = 15;
-	departure_price = 30;
-	fringe = 1
-	},
-/turf/open/floor/rogue/blocks,
-/area/provincial/underground/dungeon/hordes_hoard)
 "rHM" = (
 /mob/living/simple_animal/hostile/retaliate/rogue/bigrat,
 /turf/open/floor/rogue/dirt,
@@ -54137,6 +54223,10 @@
 /obj/effect/decal/church_line/directional/north,
 /turf/open/floor/rogue/grassred,
 /area/provincial/indoors/dungeon/giuseppes_toybox)
+"sdz" = (
+/obj/effect/landmark/quest_spawner/medium,
+/turf/open/floor/rogue/dirt,
+/area/provincial/outdoors/forest)
 "sdC" = (
 /obj/structure/stairs/stone/d{
 	dir = 8
@@ -54379,15 +54469,6 @@
 	},
 /turf/open/floor/rogue/blocks/stonered,
 /area/provincial/underground/dungeon/gargoyles_rest)
-"shr" = (
-/obj/structure/roguemachine/teleport_beacon/wilderness{
-	custom_name = "Old University Lockroom";
-	arrival_price = 15;
-	departure_price = 30;
-	fringe = 1
-	},
-/turf/open/floor/rogue/church,
-/area/provincial/underground/dungeon/old_university)
 "shA" = (
 /obj/structure/mirror,
 /turf/open/floor/carpet/inn,
@@ -55309,6 +55390,16 @@
 /obj/structure/spacevine,
 /turf/open/water/swamp/deep,
 /area/provincial/underground/dungeon/gethsmane/inner)
+"syJ" = (
+/obj/structure/roguemachine/teleport_beacon/wilderness{
+	custom_name = "Old University Lockroom";
+	arrival_price = 15;
+	departure_price = 30;
+	fringe = 1;
+	quest_difficulty = "Hard"
+	},
+/turf/open/floor/rogue/church,
+/area/provincial/underground/dungeon/old_university)
 "syL" = (
 /obj/effect/decal/remains/human,
 /obj/structure/stairs/stone,
@@ -56009,6 +56100,10 @@
 	},
 /turf/open/floor/rogue/ruinedwood/herringbone,
 /area/provincial/indoors/town)
+"sLI" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/rogue/blocks,
+/area/provincial/indoors/town/sewer)
 "sLN" = (
 /obj/item/natural/stone{
 	pixel_x = 6;
@@ -57910,6 +58005,11 @@
 	},
 /turf/open/floor/rogue/woodturned,
 /area/provincial/outdoors/town/ramparts)
+"ttw" = (
+/obj/machinery/light/rogue/torchholder/directional/west,
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/rogue/dirt,
+/area/provincial/indoors/town/sewer)
 "ttx" = (
 /obj/item/natural/stone{
 	pixel_y = -9;
@@ -58483,6 +58583,16 @@
 /mob/living/simple_animal/hostile/retaliate/rogue/spider,
 /turf/open/floor/rogue/twig,
 /area/provincial/outdoors/bog)
+"tEC" = (
+/obj/structure/roguemachine/teleport_beacon/wilderness{
+	custom_name = "Goblins' Village";
+	arrival_price = 5;
+	departure_price = 10;
+	fringe = 1;
+	quest_difficulty = "Medium"
+	},
+/turf/open/floor/rogue/dirt,
+/area/provincial/outdoors/forest)
 "tEJ" = (
 /turf/closed/wall/mineral/rogue/tent{
 	dir = 8
@@ -61537,15 +61647,6 @@
 /obj/structure/fluff/railing/fence,
 /turf/open/floor/rogue/dirt/road,
 /area/provincial/outdoors/field)
-"uGm" = (
-/obj/structure/roguemachine/teleport_beacon/wilderness{
-	custom_name = "Riverbrook";
-	arrival_price = 5;
-	departure_price = 10;
-	fringe = 1
-	},
-/turf/open/floor/rogue/cobble/mossy,
-/area/provincial/outdoors/dungeon/riverbrook)
 "uGC" = (
 /obj/structure/chair/stool/rogue,
 /turf/open/floor/rogue/concrete,
@@ -61609,15 +61710,6 @@
 "uHx" = (
 /turf/open/floor/rogue/hexstone,
 /area/provincial/outdoors/mountains/underkings_maw/deeper_within)
-"uHy" = (
-/obj/structure/roguemachine/teleport_beacon/wilderness{
-	custom_name = "The Winding Halls";
-	arrival_price = 15;
-	departure_price = 30;
-	fringe = 1
-	},
-/turf/open/floor/rogue/churchbrick,
-/area/provincial/underground/dungeon/winding_halls)
 "uHG" = (
 /obj/structure/table/wood,
 /obj/item/roguestatue/iron{
@@ -62354,15 +62446,6 @@
 	},
 /turf/open/floor/rogue/wood,
 /area/provincial/outdoors/beach)
-"uVU" = (
-/obj/structure/roguemachine/teleport_beacon/bandit{
-	custom_name = "Searaiders' Hold";
-	arrival_price = 15;
-	departure_price = 30;
-	fringe = 1
-	},
-/turf/open/floor/rogue/ruinedwood,
-/area/provincial/indoors)
 "uVY" = (
 /obj/structure/chair/wood/rogue{
 	dir = 1
@@ -64289,6 +64372,16 @@
 /mob/living/carbon/human/species/skeleton/npc,
 /turf/open/floor/rogue/dirt,
 /area/provincial/outdoors/mountains)
+"vEP" = (
+/obj/structure/roguemachine/teleport_beacon/wilderness{
+	custom_name = "Vulnafir";
+	arrival_price = 15;
+	departure_price = 30;
+	fringe = 1;
+	quest_difficulty = "Hard"
+	},
+/turf/open/floor/rogue/cobble,
+/area/provincial/underground/dungeon/vulnafir)
 "vER" = (
 /obj/structure/bookcase/random,
 /turf/open/floor/rogue/wood,
@@ -64761,6 +64854,16 @@
 	},
 /turf/open/floor/rogue/metal,
 /area/provincial/indoors/dungeon/giuseppes_toybox)
+"vLR" = (
+/obj/structure/roguemachine/teleport_beacon/wilderness{
+	custom_name = "Old Ruins";
+	arrival_price = 15;
+	departure_price = 30;
+	fringe = 1;
+	quest_difficulty = "Hard"
+	},
+/turf/open/floor/rogue/herringbone,
+/area/provincial/underground/dungeon/old_ruin)
 "vLZ" = (
 /mob/living/carbon/human/species/construct/metal/toyjester,
 /turf/open/floor/rogue/metal,
@@ -66165,6 +66268,16 @@
 	},
 /turf/open/floor/rogue/blocks,
 /area/provincial/indoors/town/tavern/kitchen/pantry)
+"wlY" = (
+/obj/structure/roguemachine/teleport_beacon/underdark{
+	custom_name = "Lich's Hall";
+	arrival_price = 15;
+	departure_price = 30;
+	fringe = 1;
+	quest_difficulty = "Hard"
+	},
+/turf/open/floor/rogue/carpet/lord/center/no_teleport,
+/area/provincial/underground/dungeon/licharena)
 "wmi" = (
 /obj/structure/roguewindow/openclose/reinforced,
 /turf/open/floor/rogue/woodturned,
@@ -67270,14 +67383,6 @@
 /obj/structure/flora/newtree,
 /turf/open/floor/rogue/grass,
 /area/provincial/outdoors/dungeon/riverbrook)
-"wHs" = (
-/obj/structure/roguemachine/teleport_beacon/wilderness{
-	arrival_price = 5;
-	departure_price = 10;
-	fringe = 1
-	},
-/turf/open/floor/rogue/dirt/road,
-/area/provincial/outdoors/bog)
 "wHt" = (
 /obj/structure/roguemachine/mail/directional/south{
 	mailtag = "Dwarven Quarter"
@@ -67829,15 +67934,6 @@
 	},
 /turf/open/floor/rogue/herringbone,
 /area/provincial/indoors/town/mages_university/artificer)
-"wQv" = (
-/obj/structure/roguemachine/teleport_beacon/lava{
-	custom_name = "Dragons' Den";
-	arrival_price = 15;
-	departure_price = 30;
-	fringe = 1
-	},
-/turf/open/floor/rogue/naturalstone,
-/area/provincial/underground/dungeon/dragonden)
 "wQy" = (
 /obj/structure/bars/pipe{
 	dir = 1
@@ -71015,10 +71111,6 @@
 /obj/structure/flora/roguegrass,
 /turf/open/floor/rogue/grassred,
 /area/provincial/underground/dungeon/old_university_garden)
-"xUm" = (
-/obj/machinery/light/rogue/firebowl/standing,
-/turf/open/floor/rogue/tile,
-/area/provincial/indoors/town/adventurers_guild)
 "xUn" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10;
@@ -71274,6 +71366,10 @@
 	},
 /turf/open/water/sewer,
 /area/provincial/underground/dungeon/gethsmane/inner)
+"xYl" = (
+/obj/effect/landmark/quest_spawner/medium,
+/turf/open/floor/rogue/grass,
+/area/provincial/outdoors/forest)
 "xYs" = (
 /obj/structure/bars/passage/steel{
 	redstone_id = "scary_prison"
@@ -81945,7 +82041,7 @@ lCm
 bPG
 rtU
 rtU
-rHK
+nCj
 poa
 "}
 (23,1,1) = {"
@@ -84020,7 +84116,7 @@ btr
 btr
 btr
 kos
-qCQ
+fFY
 btr
 btr
 pgs
@@ -92219,7 +92315,7 @@ hqz
 eEq
 xWC
 jfv
-rDi
+qxT
 frK
 ciz
 uWl
@@ -131411,7 +131507,7 @@ dxI
 jIk
 hgg
 pqN
-cqq
+rkv
 qBF
 htg
 nnC
@@ -135834,7 +135930,7 @@ vCf
 fKX
 dnw
 lau
-uHy
+dVk
 xUK
 lau
 cxw
@@ -138196,7 +138292,7 @@ cbs
 bTM
 bTM
 szy
-rWT
+sLI
 rWT
 rWT
 rWT
@@ -145408,7 +145504,7 @@ pUX
 pUX
 dxI
 dVZ
-ygn
+mHZ
 nHp
 cbs
 pqN
@@ -149030,7 +149126,7 @@ mRT
 rRL
 rRL
 oYU
-rRL
+lrS
 rRL
 rRL
 rRL
@@ -150399,7 +150495,7 @@ uOl
 pqN
 dxI
 hdv
-dwo
+ttw
 vFX
 cbs
 uOl
@@ -152643,7 +152739,7 @@ pqN
 uOl
 dxI
 rSE
-hdv
+dNS
 vFX
 cbs
 uOl
@@ -153114,7 +153210,7 @@ pUX
 pUX
 pUX
 dxI
-cqq
+rkv
 pqN
 qsv
 qsv
@@ -154882,7 +154978,7 @@ dxI
 cep
 llc
 kAG
-abY
+qzE
 abY
 abY
 hdv
@@ -154891,7 +154987,7 @@ cqq
 pqN
 uIH
 hdv
-gwJ
+pKF
 jAG
 tJf
 jAG
@@ -155806,7 +155902,7 @@ cqq
 pqN
 cqq
 dxI
-cqq
+rkv
 vFX
 iMF
 cbs
@@ -155909,7 +156005,7 @@ osM
 osM
 osM
 osM
-dNu
+cCj
 eJK
 rwl
 rwl
@@ -157629,7 +157725,7 @@ mRT
 mRT
 mRT
 vrd
-vFX
+pge
 enL
 cqq
 vFX
@@ -158970,7 +159066,7 @@ kLh
 cbs
 qGR
 spx
-cqq
+rkv
 pqN
 uIH
 pZH
@@ -159427,7 +159523,7 @@ pqN
 uIH
 pZH
 hdv
-hdv
+dNS
 hHo
 jFo
 dxI
@@ -166113,7 +166209,7 @@ jwo
 oLb
 kcF
 kcF
-mLM
+vLR
 jnH
 jwo
 jwo
@@ -178371,7 +178467,7 @@ pUX
 pUX
 vPq
 vPq
-hdk
+bZG
 myu
 oUF
 myu
@@ -189331,7 +189427,7 @@ shW
 iXH
 kJT
 kJT
-shr
+syJ
 kJT
 wyy
 shW
@@ -193098,7 +193194,7 @@ azB
 azB
 kGI
 kGI
-kGI
+xYl
 sBk
 azB
 kGI
@@ -193523,7 +193619,7 @@ dbq
 kGI
 kGI
 kGI
-kGI
+xYl
 kGI
 kGI
 kGI
@@ -195574,7 +195670,7 @@ nXP
 nXP
 ijL
 nXP
-lfj
+wlY
 nXP
 nXP
 nXP
@@ -197129,7 +197225,7 @@ kGI
 kGI
 kGI
 kGI
-kGI
+xYl
 kGI
 kGI
 kGI
@@ -199889,7 +199985,7 @@ azB
 azB
 azB
 azB
-azB
+sdz
 kGI
 kGI
 kGI
@@ -200324,7 +200420,7 @@ azB
 azB
 woX
 azB
-azB
+sdz
 kGI
 kGI
 kGI
@@ -200755,7 +200851,7 @@ kGI
 kGI
 kGI
 kGI
-kGI
+xYl
 kGI
 kGI
 kGI
@@ -210647,7 +210743,7 @@ hXq
 oSz
 uGf
 kGI
-kGI
+xYl
 kGI
 azB
 kQa
@@ -211988,7 +212084,7 @@ ubI
 azB
 azB
 dbq
-kGI
+xYl
 kGI
 kGI
 hBb
@@ -213871,7 +213967,7 @@ woX
 azB
 kGI
 kGI
-kGI
+xYl
 kGI
 kGI
 kGI
@@ -215235,7 +215331,7 @@ kGI
 kGI
 kGI
 kGI
-kGI
+xYl
 kGI
 kGI
 kGI
@@ -216516,7 +216612,7 @@ pzC
 pzC
 pzC
 pzC
-pzC
+nFd
 pzC
 woX
 woX
@@ -217942,7 +218038,7 @@ kGI
 kGI
 kGI
 kGI
-kGI
+xYl
 kGI
 kGI
 kGI
@@ -218324,7 +218420,7 @@ kGI
 azB
 azB
 kGI
-iRs
+kCf
 kGI
 kGI
 kGI
@@ -222915,7 +223011,7 @@ kGI
 kGI
 dbq
 kGI
-kGI
+xYl
 kGI
 azB
 azB
@@ -223756,7 +223852,7 @@ kGI
 kGI
 dbq
 kGI
-kGI
+ndE
 azB
 kGI
 kGI
@@ -226990,7 +227086,7 @@ azB
 azB
 azB
 kGI
-kGI
+xYl
 kGI
 kGI
 kGI
@@ -229617,7 +229713,7 @@ kGI
 dbq
 dbq
 kGI
-kGI
+ndE
 kGI
 kGI
 kGI
@@ -229647,7 +229743,7 @@ kGI
 kGI
 kGI
 kGI
-kGI
+ndE
 kGI
 kGI
 kGI
@@ -230596,7 +230692,7 @@ azB
 azB
 kGI
 kGI
-kGI
+xYl
 kGI
 kGI
 kGI
@@ -236415,7 +236511,7 @@ kGI
 kGI
 azB
 kGI
-kGI
+ndE
 kGI
 azB
 kGI
@@ -240088,7 +240184,7 @@ azB
 kGI
 kGI
 kGI
-kGI
+xYl
 kGI
 kGI
 kGI
@@ -241400,7 +241496,7 @@ azB
 azB
 azB
 kGI
-kGI
+ndE
 kGI
 kGI
 kGI
@@ -242441,7 +242537,7 @@ iiT
 mup
 hzu
 ina
-rtM
+vEP
 ina
 rfY
 uUP
@@ -243719,7 +243815,7 @@ kGI
 kGI
 kGI
 kGI
-kGI
+xYl
 kGI
 kGI
 kGI
@@ -248227,7 +248323,7 @@ dJR
 nWL
 kGI
 kGI
-kGI
+xYl
 kGI
 dbq
 azB
@@ -254991,7 +255087,7 @@ qCA
 azB
 azB
 azB
-hTn
+ntn
 azB
 pzC
 pzC
@@ -255393,7 +255489,7 @@ azB
 kGI
 kGI
 kGI
-kGI
+ndE
 kGI
 kGI
 azB
@@ -255484,7 +255580,7 @@ azB
 kGI
 kGI
 kGI
-kGI
+xYl
 kGI
 kGI
 kGI
@@ -257673,7 +257769,7 @@ dkL
 pzC
 pzC
 pzC
-kGI
+ndE
 kGI
 kGI
 kGI
@@ -259085,7 +259181,7 @@ kGI
 dbq
 wMm
 kGI
-azB
+sdz
 kGI
 kGI
 kGI
@@ -259327,7 +259423,7 @@ kNB
 pvt
 rVu
 wcn
-xUm
+mUG
 tHC
 tHC
 xSg
@@ -261134,7 +261230,7 @@ dLW
 eaU
 mLs
 gKm
-izj
+psD
 jRS
 jRS
 jRS
@@ -261587,7 +261683,7 @@ xfN
 pLE
 gKm
 rVu
-mZV
+nRW
 wVa
 jRS
 wmK
@@ -262158,7 +262254,7 @@ kGI
 kGI
 azB
 kGI
-kGI
+ndE
 kGI
 azB
 azB
@@ -262959,7 +263055,7 @@ tZh
 cBa
 tZh
 xnC
-jVL
+kcc
 xWM
 tZh
 smy
@@ -264452,7 +264548,7 @@ pzC
 pzC
 pzC
 pzC
-lTA
+flw
 fdY
 kGI
 azB
@@ -264522,7 +264618,7 @@ kGI
 kGI
 kGI
 kGI
-kGI
+xYl
 kGI
 kGI
 dbq
@@ -267594,7 +267690,7 @@ sBk
 azB
 kGI
 kGI
-kGI
+ndE
 kGI
 kGI
 kGI
@@ -299426,7 +299522,7 @@ xhh
 vzr
 vzr
 iMg
-uVU
+kRG
 szx
 pYo
 iMg
@@ -310446,7 +310542,7 @@ jbO
 jbO
 nJz
 jOz
-kQC
+hAw
 nJz
 nJz
 nJz
@@ -310909,7 +311005,7 @@ rKI
 jOz
 jbO
 rkt
-kQC
+hAw
 kQC
 kQC
 wja
@@ -317696,7 +317792,7 @@ jOz
 viY
 jOz
 jOz
-kQC
+hAw
 nJz
 nJz
 nJz
@@ -319914,7 +320010,7 @@ jbO
 wja
 kQC
 kQC
-kQC
+hAw
 kQC
 jbO
 jbO
@@ -320304,7 +320400,7 @@ jOz
 jbO
 rkt
 rkt
-kQC
+hAw
 kQC
 nJz
 nJz
@@ -321698,7 +321794,7 @@ wja
 rkt
 rkt
 mVY
-kQC
+hAw
 kQC
 kQC
 kQC
@@ -322162,7 +322258,7 @@ mVY
 mVY
 kQC
 kQC
-kQC
+hAw
 kQC
 wja
 jbO
@@ -324471,7 +324567,7 @@ jbO
 wja
 jOz
 nJz
-kQC
+hAw
 jOz
 jOz
 jOz
@@ -324936,7 +325032,7 @@ nJz
 jbO
 jbO
 rkt
-wHs
+kLB
 mVY
 rkt
 nJz
@@ -325091,7 +325187,7 @@ kGI
 azB
 azB
 azB
-jZH
+tEC
 kGI
 kGI
 kWd
@@ -325358,7 +325454,7 @@ jbO
 jbO
 kQC
 kQC
-kQC
+hAw
 kQC
 mVY
 rkt
@@ -326659,7 +326755,7 @@ jbO
 wja
 wja
 jbO
-kQC
+hAw
 jbO
 jbO
 jbO
@@ -327997,7 +328093,7 @@ jOz
 jbO
 jbO
 jbO
-kQC
+hAw
 jbO
 jbO
 rKI
@@ -328063,7 +328159,7 @@ wja
 wja
 kQC
 kQC
-kQC
+hAw
 wja
 wja
 wja
@@ -329412,7 +329508,7 @@ rkt
 rkt
 kQC
 kQC
-kQC
+hAw
 jOz
 jbO
 iRe
@@ -333431,7 +333527,7 @@ jbO
 jbO
 nJz
 jOz
-kQC
+hAw
 rKI
 jOz
 jPT
@@ -336215,7 +336311,7 @@ jbO
 jbO
 wja
 jOz
-kQC
+hAw
 jOz
 wja
 jbO
@@ -337097,7 +337193,7 @@ jOz
 wja
 jOz
 kQC
-kQC
+hAw
 nJz
 nJz
 jbO
@@ -351836,7 +351932,7 @@ eap
 eap
 eap
 eap
-pAa
+bqe
 eap
 eap
 eap
@@ -366795,7 +366891,7 @@ dpw
 pkO
 iXi
 iXi
-iXi
+eFE
 sQN
 mxb
 sQN
@@ -370405,7 +370501,7 @@ sQN
 sQN
 cCP
 mxb
-mxb
+rEC
 mxb
 vRc
 xQK
@@ -370833,7 +370929,7 @@ sQN
 muZ
 mxb
 mxb
-mxb
+rEC
 sQN
 sQN
 sQN
@@ -371335,7 +371431,7 @@ mxb
 sQN
 mxb
 sQN
-sQN
+mEm
 sQN
 sQN
 muZ
@@ -381744,7 +381840,7 @@ mxb
 sQN
 sQN
 sQN
-sQN
+mEm
 sQN
 mxb
 mxb
@@ -382110,7 +382206,7 @@ wal
 fxZ
 pqk
 pqk
-pqk
+cFb
 mHh
 mHh
 fxZ
@@ -383930,7 +384026,7 @@ pqk
 mHh
 pqk
 pqk
-mHh
+fHW
 mHh
 lKk
 pap
@@ -383987,7 +384083,7 @@ sQN
 sQN
 sQN
 sQN
-sQN
+mEm
 sQN
 sQN
 iXi
@@ -386644,7 +386740,7 @@ xYO
 pqk
 xsr
 eZc
-uGm
+lmq
 khe
 avh
 vrl
@@ -391237,7 +391333,7 @@ mxb
 sQN
 sQN
 mxb
-mxb
+rEC
 mxb
 pUX
 pUX
@@ -392111,7 +392207,7 @@ sQN
 mxb
 sQN
 mxb
-sQN
+mEm
 mxb
 mxb
 sQN
@@ -392502,7 +392598,7 @@ aAc
 cvr
 cvr
 xYO
-pqk
+cFb
 pqk
 aAc
 nab
@@ -393438,7 +393534,7 @@ sQN
 mLl
 mxb
 muZ
-sQN
+mEm
 sQN
 sQN
 mxb
@@ -394813,7 +394909,7 @@ sQN
 sQN
 mxb
 mxb
-mxb
+rEC
 mxb
 sQN
 mxb
@@ -401092,7 +401188,7 @@ sQN
 kOO
 sQN
 sQN
-sQN
+mEm
 sQN
 sQN
 sQN
@@ -403885,7 +403981,7 @@ mxb
 mxb
 sQN
 sQN
-sQN
+mEm
 sQN
 mxb
 mxb
@@ -446758,7 +446854,7 @@ hac
 lDW
 hfz
 vUo
-mgP
+oPJ
 vUo
 hfz
 hac
@@ -451255,7 +451351,7 @@ mpv
 mpv
 mpv
 mpv
-wQv
+kSW
 kcx
 mpv
 jrI
@@ -465872,7 +465968,7 @@ afC
 afC
 gaz
 nRv
-pyw
+ePn
 bUO
 qVC
 qAI
@@ -467981,7 +468077,7 @@ rrY
 fEl
 tPn
 xXb
-ilf
+ird
 oJe
 oJe
 gsY
@@ -516720,7 +516816,7 @@ dny
 dny
 oEP
 dny
-hRG
+mTP
 dny
 oEP
 aVS

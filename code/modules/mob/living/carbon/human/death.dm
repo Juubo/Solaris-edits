@@ -181,7 +181,7 @@
 			ghostie.client.prefs.copy_to(body)
 		mind.transfer_to(body)
 	else
-		body.forceMove(pick(GLOB.vlord_starts))
+		body.forceMove(pick(GLOB.secondlife_respawns))
 		body.revive(full_heal = TRUE, admin_revive = TRUE)
 	mind.grab_ghost(TRUE)
 	body.flash_act()

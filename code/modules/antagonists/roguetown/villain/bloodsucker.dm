@@ -13,7 +13,6 @@
 									TRAIT_STEELHEARTED, 
 									TRAIT_GRAVEROBBER,
 									TRAIT_NOSLEEP, 
-									TRAIT_VAMPMANSION, 
 									TRAIT_VAMP_DREAMS,
 									TRAIT_VAMPIRISM,)
 	rogue_enabled = TRUE
@@ -259,14 +258,8 @@
 						   TRAIT_GRAVEROBBER,
 						   TRAIT_NOSLEEP, 
 						   TRAIT_ZOMBIE_IMMUNE,
-						   TRAIT_VAMPMANSION, 
 						   TRAIT_VAMP_DREAMS,
 						   TRAIT_VAMPIRISM,)
-	/*confess_lines = list(
-		"THE CRIMSON CALLS!",
-		"MY MASTER COMMANDS",
-		"THE SUN IS ENEMY!",
-	)*/
 	new_bloodsucker = TRUE
 
 // Ancient
@@ -391,7 +384,7 @@
 
 /obj/effect/landmark/start/bloodsucker/Initialize()
 	. = ..()
-	GLOB.vlord_starts += loc
+	GLOB.secondlife_respawns += loc
 
 //skin and hair color customizations		
 /datum/antagonist/bloodsucker/proc/choose_skin_popup(mob/user)

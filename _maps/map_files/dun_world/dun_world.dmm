@@ -25784,6 +25784,12 @@
 /mob/living/carbon/human/species/goblin/npc/hell,
 /turf/open/floor/carpet/red,
 /area/provincial/underground/dungeon/goblinfort)
+"iHv" = (
+/obj/effect/landmark/start/bloodsucker{
+	dir = 8
+	},
+/turf/open/floor/rogue/dirt/road,
+/area/provincial/outdoors/bog)
 "iHx" = (
 /obj/item/chair/rogue,
 /turf/open/floor/rogue/cobble/mossy,
@@ -29364,10 +29370,8 @@
 /turf/open/floor/rogue/hexstone,
 /area/provincial/indoors/town/province_keep/magician)
 "jPk" = (
-/obj/structure/bed/rogue/bedroll,
-/obj/effect/landmark/start/bloodsucker,
-/turf/open/floor/rogue/dirt/road,
-/area/provincial/underground/field)
+/turf/open/floor/rogue/cobblerock,
+/area/provincial/outdoors/bog)
 "jPr" = (
 /obj/machinery/light/rogue/firebowl/stump,
 /obj/structure/fluff/railing/border{
@@ -31456,7 +31460,6 @@
 "kxt" = (
 /obj/structure/flora/roguegrass,
 /obj/structure/flora/ausbushes/lavendergrass,
-/obj/effect/landmark/start/bloodsucker,
 /turf/open/floor/rogue/grass,
 /area/provincial/indoors/town)
 "kxG" = (
@@ -32777,6 +32780,12 @@
 /obj/structure/chair/wood/rogue/throne,
 /turf/open/floor/rogue/wood,
 /area/provincial/underground/dungeon/vulnafir)
+"kTV" = (
+/obj/effect/landmark/start/bloodsucker{
+	dir = 1
+	},
+/turf/open/floor/rogue/cobblerock,
+/area/provincial/outdoors/forest)
 "kTX" = (
 /obj/effect/decal/wood/herringbone2{
 	dir = 5
@@ -33777,6 +33786,10 @@
 	icon_state = "greenstone"
 	},
 /area/provincial/indoors/town/province_keep/wine_cellar)
+"lnt" = (
+/obj/structure/far_travel,
+/turf/open/floor/rogue/dirt/road,
+/area/provincial/underground/bog)
 "lnB" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -40416,6 +40429,10 @@
 /obj/effect/spawner/lootdrop/roguetown/gems,
 /turf/open/floor/rogue/metal/barograte,
 /area/provincial/underground/underdark/sunkencity)
+"nBo" = (
+/obj/machinery/light/rogue/firebowl,
+/turf/open/floor/rogue/cobblerock,
+/area/provincial/underground/forest)
 "nBw" = (
 /mob/living/simple_animal/hostile/retaliate/rogue/mole{
 	faction = list("wolfs","undead")
@@ -45950,6 +45967,12 @@
 "pvR" = (
 /turf/open/floor/carpet/royalblack,
 /area/provincial/indoors/town/adventurers_guild/handlers_office/bedroom)
+"pvX" = (
+/obj/effect/landmark/start/bloodsucker{
+	dir = 4
+	},
+/turf/open/floor/rogue/dirt,
+/area/provincial/underground/forest)
 "pvY" = (
 /obj/structure/roguewindow/openclose/reinforced,
 /turf/open/floor/rogue/ruinedwood{
@@ -47928,6 +47951,10 @@
 /mob/living/carbon/human/species/goblin/npc/sea,
 /turf/open/floor/rogue/dirt/road,
 /area/provincial/outdoors/forest/brightway)
+"pZS" = (
+/obj/structure/far_travel,
+/turf/open/floor/rogue/naturalstone,
+/area/provincial/underground/forest)
 "qai" = (
 /obj/structure/fluff/railing/border{
 	dir = 9
@@ -51532,8 +51559,8 @@
 /turf/closed/wall/mineral/rogue/stone/moss,
 /area/provincial/indoors/town/province_keep/garrison/gate/south)
 "rgZ" = (
-/turf/open/floor/rogue/twig,
-/area/provincial/outdoors/beach)
+/turf/open/floor/rogue/cobblerock,
+/area/provincial/underground/forest)
 "rhc" = (
 /obj/structure/closet/crate/roguecloset/crafted,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/weapons,
@@ -58446,16 +58473,6 @@
 	},
 /turf/open/floor/rogue/grassred,
 /area/provincial/underground/dungeon/old_university)
-"tCy" = (
-/obj/structure/bed/rogue/inn/hay,
-/obj/effect/landmark/start/bloodsucker,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/turf/open/water/ocean/deep,
-/area/provincial/outdoors/beach)
 "tCK" = (
 /obj/machinery/light/rogue/firebowl/stump,
 /obj/structure/fluff/railing/wood{
@@ -60484,6 +60501,10 @@
 /obj/machinery/light/rogue/wallfire/candle/directional/west,
 /turf/open/floor/rogue/tile/checkeralt,
 /area/provincial/indoors/dungeon/giuseppes_toybox)
+"umo" = (
+/obj/structure/far_travel,
+/turf/open/floor/rogue/dirt,
+/area/provincial/underground/bog)
 "umt" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/border{
@@ -60747,6 +60768,10 @@
 /obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
 /turf/open/floor/rogue/cobble,
 /area/provincial/indoors/town/sewer)
+"urg" = (
+/obj/structure/far_travel,
+/turf/open/floor/rogue/dirt,
+/area/provincial/underground/forest)
 "url" = (
 /obj/effect/decal/cobbleedge{
 	dir = 9
@@ -156037,7 +156062,7 @@ rwl
 rwl
 rwl
 rwl
-tCy
+rwl
 rwl
 rwl
 rwl
@@ -178499,7 +178524,7 @@ heO
 heO
 vLi
 vLi
-jPk
+stG
 oKl
 exk
 oKl
@@ -263324,7 +263349,7 @@ woX
 pzC
 azB
 pzC
-pzC
+kTV
 cur
 hOS
 hOS
@@ -306159,9 +306184,9 @@ hOS
 hOS
 hOS
 hOS
-hOS
-hOS
-hOS
+urg
+pZS
+pZS
 hOS
 hOS
 hOS
@@ -306610,11 +306635,11 @@ hOS
 hOS
 hOS
 hOS
-hOS
-hOS
-hOS
-hOS
-hOS
+aad
+rgZ
+pvX
+aad
+rgZ
 hOS
 hOS
 hOS
@@ -307061,14 +307086,14 @@ hOS
 hOS
 hOS
 hOS
-hOS
-hOS
-hOS
-hOS
-hOS
-hOS
-hOS
-hOS
+aad
+aad
+rgZ
+rgZ
+tKt
+rgZ
+aad
+aad
 hOS
 hOS
 hOS
@@ -307514,13 +307539,13 @@ hOS
 hOS
 hOS
 hOS
-hOS
-hOS
-hOS
-hOS
-hOS
-hOS
-hOS
+aad
+tKt
+aad
+rgZ
+tKt
+tKt
+aad
 hOS
 hOS
 hOS
@@ -307967,11 +307992,11 @@ hOS
 hOS
 hOS
 hOS
-hOS
-hOS
-hOS
-hOS
-hOS
+aad
+rgZ
+rgZ
+tKt
+nBo
 hOS
 hOS
 hOS
@@ -308420,9 +308445,9 @@ hOS
 hOS
 hOS
 hOS
-hOS
-hOS
-hOS
+aad
+aad
+aad
 hOS
 hOS
 hOS
@@ -386099,8 +386124,6 @@ ifl
 ifl
 ifl
 ifl
-rgZ
-rgZ
 ifl
 ifl
 ifl
@@ -386108,8 +386131,10 @@ ifl
 ifl
 ifl
 ifl
-rgZ
-rgZ
+ifl
+ifl
+ifl
+ifl
 ifl
 ifl
 ifl
@@ -386551,17 +386576,17 @@ ifl
 ifl
 ifl
 ifl
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
 ifl
 ifl
 ifl
@@ -387004,15 +387029,15 @@ ifl
 ifl
 ifl
 ifl
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
 ifl
 ifl
 ifl
@@ -387456,15 +387481,15 @@ pwm
 ifl
 ifl
 ifl
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
 ifl
 ifl
 ifl
@@ -387908,15 +387933,15 @@ pwm
 ifl
 ifl
 ifl
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
 ifl
 ifl
 ifl
@@ -388361,13 +388386,13 @@ ifl
 ifl
 ifl
 ifl
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
-rgZ
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
+ifl
 ifl
 ifl
 ifl
@@ -455133,8 +455158,8 @@ ukn
 ukn
 ukn
 rkt
-vES
-vES
+vxX
+jPk
 vES
 kLJ
 kLJ
@@ -455586,7 +455611,7 @@ rkt
 vES
 rkt
 vES
-vES
+jPk
 rkt
 kLJ
 kLJ
@@ -456939,7 +456964,7 @@ vES
 vES
 rkt
 vES
-vES
+jPk
 rkt
 rkt
 rkt
@@ -457389,7 +457414,7 @@ vES
 vES
 rkt
 vES
-vES
+vxX
 vES
 rkt
 vES
@@ -458294,8 +458319,8 @@ vES
 rkt
 vES
 vES
-vES
-vES
+jPk
+jPk
 vES
 kLJ
 kLJ
@@ -458744,10 +458769,10 @@ vES
 rkt
 vES
 vES
+fdy
 rkt
-rkt
-vES
-vES
+iHv
+mVY
 kLJ
 kLJ
 kLJ
@@ -459197,9 +459222,9 @@ kLJ
 kLJ
 kLJ
 kLJ
-kLJ
-kLJ
-kLJ
+lnt
+lnt
+umo
 kLJ
 kLJ
 kLJ

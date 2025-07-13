@@ -67,7 +67,7 @@
 
 	for(var/direction in GLOB.cardinals)
 		var/turf/step_back = get_step(src, direction)
-		for(var/obj/structure/structure in step_back.contents)
+		for(var/obj/structure/structure in step_back?.contents)
 			if(!(direction & dpdir)) // not in dpdir, check for cog structures
 				if(!istype(structure, /obj/structure/rotation_piece/cog)) //&& !istype(structure, /obj/structure/water_pump)) //we're not include waterpumps right now
 					continue

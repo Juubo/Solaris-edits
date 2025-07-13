@@ -101,31 +101,32 @@
 /obj/structure/minecart_rail/attack_right(mob/user)
 	. = ..()
 	var/obj/item/held_item = user.get_active_held_item()
-	if(held_item?.tool_behaviour == TOOL_MULTITOOL)
-		rotate_direction(user)
-		return
+	if(held_item.type == /obj/item/contraption/linker)
+		var/rotateoption = input(user, "Do you want to rotate the tracks or its triggered rotation?", "Choose a your mode", ) as null|anything in list("rotate","trigger")
+		if(rotateoption == "rotate")
+			rotate_direction(user)
+			return
+		if(rotateoption == "trigger")
+			triggered_rotate_direction(user)
+			return
+		if(!rotateoption)
+			return
 
-	var/choice = input(user, "Choose a direction to cycle to when activated by a trigger.", src, list("Downwards Left Turn", 
-																									  "Downwards Right Turn",
-																									  "Upwards Left Turn", 
-																									  "Upwards Right Turn", 
-																									  "Up and Down", 
-																									  "Left and Right"))
-	if(!choice)
+/obj/structure/minecart_rail/proc/triggered_rotate_direction(mob/user)
+	var/list/triggeredchoices = list("Downwards Left Turn", "Downwards Right Turn", "Upwards Left Turn", "Upwards Right Turn", "Up and Down", "Left and Right")
+	var/triggeredchoice = input(user, "Rotate the rail towards a direction when triggered.", "Choose a Direction") as null|anything in triggeredchoices
+	if(!triggeredchoice)
 		return
+	playsound(src, 'sound/misc/ratchet.ogg', 20, TRUE)
+	secondary_direction = directions[triggeredchoice]
+	//setDir(directions[triggeredchoice])
 
-	secondary_direction = directions[choice]
 
 /obj/structure/minecart_rail/proc/rotate_direction(mob/user)
-	var/choice = input(user, "Rotate the rail towards a direction.", src, list("Downwards Left Turn",
-																			   "Downwards Right Turn", 
-																			   "Upwards Left Turn", 
-																			   "Upwards Right Turn", 
-																			   "Up and Down", 
-																			   "Left and Right"))
+	var/list/choices = list("Downwards Left Turn", "Downwards Right Turn", "Upwards Left Turn", "Upwards Right Turn", "Up and Down", "Left and Right")
+	var/choice = input(user, "Choose a direction to move to", "Choose a Direction", ) as null|anything in choices
 	if(!choice)
 		return
-
 	playsound(src, 'sound/misc/ratchet.ogg', 20, TRUE)
 	setDir(directions[choice])
 

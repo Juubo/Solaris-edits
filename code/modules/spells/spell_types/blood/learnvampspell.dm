@@ -18,7 +18,7 @@
 	var/list/choices = list()
 	var/list/vamp_choices = list()
 
-	if(BSdrinker.bs_spawn == 1)
+	if(BSdrinker?.bs_spawn == 1)
 		//lesser perk list since they are fledglings
 		vamp_choices  += GLOB.learnable_fledgling_perks
 		//lesser spell list since they are fledglings

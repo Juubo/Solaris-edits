@@ -109,7 +109,7 @@
 	name = "fireplace"
 	icon_state = "wallfire1"
 	base_state = "wallfire"
-	brightness = 10
+	light_outer_range = 4 //slightly weaker than a torch
 	bulb_colour = "#ffa35c"
 	density = FALSE
 	fueluse = 0
@@ -165,7 +165,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/light/rogue/wallfire/candle/tree, 32)
 
 /obj/machinery/light/rogue/wallfire/candle/weak
 	light_power = 0.9
-	light_outer_range =  6
+	light_outer_range =  4
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/light/rogue/wallfire/candle/weak, 32)
 
@@ -174,6 +174,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/light/rogue/wallfire/candle/weak, 32)
 	icon_state = "torchwall1"
 	base_state = "torchwall"
 	density = FALSE
+	light_outer_range = 5 //same as the held torch, if you put a torch into a sconce, it shouldn't magically become twice as bright, it's inconsistent.
 	var/obj/item/flashlight/flare/torch/torchy
 	fueluse = FALSE //we use the torch's fuel
 	soundloop = null

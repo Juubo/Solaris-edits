@@ -174,36 +174,6 @@
 	else
 		icon_state = "bowl"
 
-/obj/item/reagent_containers/glass/cup/teapot
-	name = "teapot"
-	desc = "A teapot made out of ceramic. Used to serve tea, it can hold a lot of liquid. It can still spill, however."
-	volume = 99
-	dropshrink = 0.7
-	icon_state = "teapot"
-	sellprice = 20
-
-/obj/item/reagent_containers/glass/cup/teapot/examine()
-	. = ..()
-	. += span_info("It can be brushed with a dye brush to glaze it.")
-
-/obj/item/reagent_containers/glass/cup/teapot/attackby(obj/item/I, mob/living/carbon/human/user)
-	if(istype(I, /obj/item/dye_brush))
-		if(reagents.total_volume)
-			to_chat(user, span_notice("I can't glaze the teapot while it has liquid in it."))
-			return
-		if(do_after(user, 3 SECONDS, target = src))
-			to_chat(user, span_notice("I glaze the teapot with the dye brush."))
-			new /obj/item/reagent_containers/glass/cup/teapot/fancy(get_turf(src))
-			qdel(src)
-		return
-
-/obj/item/reagent_containers/glass/cup/teapot/fancy
-	icon_state = "teapot_fancy"
-	sellprice = 24
-
-/obj/item/reagent_containers/glass/cup/teapot/update_icon(dont_fill=FALSE)
-	return FALSE // There's no filling for teapot
-
 /obj/item/reagent_containers/glass/cup/ceramic
 	name = "teacup"
 	desc = "A tea cup made out of ceramic. Used to serve tea."
@@ -216,6 +186,7 @@
 	. += span_info("It can be brushed with a dye brush to glaze it.")
 
 /obj/item/reagent_containers/glass/cup/ceramic/attackby(obj/item/I, mob/living/carbon/human/user)
+	. = ..()
 	if(istype(I, /obj/item/dye_brush))
 		if(reagents.total_volume)
 			to_chat(user, span_notice("I can't glaze the cup while it has liquid in it."))

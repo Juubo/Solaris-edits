@@ -77,7 +77,7 @@
 	icon = 'icons/roguetown/items/cooking.dmi'
 	icon_state = "teapot_raw"
 	desc = "A teapot fashioned from clay. Still needs to be baked to be useful."
-	cooked_type = /obj/item/reagent_containers/glass/cup/teapot
+	cooked_type = /obj/item/reagent_containers/glass/bucket/pot/teapot
 
 // Raw teacup
 /obj/item/natural/clay/rawteacup

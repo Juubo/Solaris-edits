@@ -34692,6 +34692,10 @@
 	icon_state = "greenstone"
 	},
 /area/provincial/indoors/town/province_keep/wine_cellar)
+"lnB" = (
+/obj/effect/landmark/map_load_mark/south_mine_road,
+/turf/closed/mineral/random/rogue/high,
+/area/provincial/underground/field)
 "lnC" = (
 /obj/structure/chair/wood/rogue/chair3,
 /obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
@@ -240180,7 +240184,7 @@ ojJ
 nXg
 nXg
 nXg
-nXg
+lnB
 nXg
 nXg
 nXg

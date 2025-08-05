@@ -194,10 +194,10 @@
 	desc = "Born out of duelists desire for theatrics, this ring denotes a proposal — an honorable duel, with stakes set ahigh.\nIf both duelists wear this ring, successful baits will off balance them, and clashing disarms will never be unlikely.\n<i>'You shall know his name. You shall know his purpose. You shall die.'</i>"
 	icon_state = "ring_duel"
 	sellprice = 10
-	
+
 /obj/item/clothing/ring/fate_weaver
 	name = "fate weaver"
-	desc = "An arcyne creation first theorized by malcontents with the resolution of Xylix's plays. It protects is wearer by tugging things gently toward less fatal potentials."
+	desc = "An arcyne creation to protect its wearer. It protects is wearer by tugging things gently toward less fatal potentials."
 	icon_state = "ring_s"
 	max_integrity = 75
 	body_parts_covered = COVERAGE_FULL | COVERAGE_HEAD_NOSE | NECK | HANDS | FEET //field covers the whole body
